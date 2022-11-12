@@ -1,0 +1,164 @@
+#calculadora {
+    background: rgb(216, 213, 213);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px  rgb(255, 155, 172);
+}
+
+#calculadoraESQ {
+    background: rgb(216, 213, 213);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px  rgb(255, 155, 172);
+}
+
+#calculadoraXD {
+    background: rgb(216, 213, 213);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px  rgb(255, 155, 172);
+}
+
+.spMes {
+  border-color: black;
+  border-width: 1px;
+  border-style: dashed;
+  background: rgb(255, 155, 172);
+  color: #000000;
+  text-align: start;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#calculadora input:focus {
+  background: rgb(255, 155, 172);
+  color: white;
+}
+#calculadora input{
+background: darkgrey;
+color: rgb(255, 255, 255);
+padding: 5px;
+border-radius: 5px;
+}
+#Total {
+    background:rgb(255, 155, 172);
+    color: rgb(128, 18, 36);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#calculadora button {
+    background: rgb(255, 119, 142);
+    color: rgb(128, 18, 36);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#calculadora button:hover {
+    background: rgb(255, 155, 172);
+    color: rgb(255, 119, 142);
+    cursor: pointer;
+}
+ 
+
+
+
+ #calculadoraESQ input:focus {
+    background: rgb(255, 155, 172);
+    color: white;
+  }
+  #calculadoraESQ input{
+  background: darkgrey;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+  }
+ #raiz {
+    background: rgb(255,155,172);
+    color: rgb(128, 18, 36);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+  #calculadoraESQ button {
+      background: rgb(255, 119, 142);
+      color: rgb(128, 18, 36);
+      padding: 5px;
+      border-radius: 5px;
+      margin-top: 10px;
+  }
+  #calculadoraESQ button:hover {
+      background: rgb(255, 155, 172);
+      color: rgb(255, 119, 142);
+      cursor: pointer;
+  }
+
+
+
+  #calculadoraXD input:focus {
+    background: rgb(255, 155, 172);
+    color: white;
+  }
+  #calculadoraXD input{
+  background: darkgrey;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+  }
+  #calculadoraXD button {
+      background: rgb(255, 119, 142);
+      color: rgb(128, 18, 36);
+      padding: 5px;
+      border-radius: 5px;
+      margin-top: 10px;
+  }
+  #calculadoraXD button:hover {
+      background: rgb(255, 155, 172);
+      color: rgb(255, 119, 142);
+      cursor: pointer;
+  }
+
+
+
+
+h3 {
+    color: rgb(128, 18, 36);
+
+}
+.calcF {
+    display: none;
+}
+#input-calcF {
+    display: none;
+}
+#input-calcF:checked + #calculadora .calcF {
+    display: block;
+}
+
+.calcEqSG {
+    display: none;
+}
+#input-calcEqSG {
+    display: none;
+}
+#input-calcEqSG:checked + #calculadoraESQ .calcEqSG {
+    display: block;
+}
+
+.calcAsMD {
+    display:none;
+}
+#input-calcAsMD {
+    display: none;
+}
+#input-calcAsMD:checked + #calculadoraXD .calcAsMD {
+    display: block;
+}
+
