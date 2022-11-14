@@ -36,6 +36,10 @@
   padding: 5px;
   margin-top: 10px;
 }
+
+
+
+
 #calculadora input:focus {
   background: rgb(255, 155, 172);
   color: white;
@@ -112,6 +116,14 @@ border-radius: 5px;
   padding: 5px;
   border-radius: 5px;
   }
+#resultado {
+    background: rgb(255,155,172);
+    color: rgb(128, 18, 36);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
   #calculadoraXD button {
       background: rgb(255, 119, 142);
       color: rgb(128, 18, 36);
